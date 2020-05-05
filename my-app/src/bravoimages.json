@@ -1,0 +1,9 @@
+[
+    {
+      "id": 1,
+      "name": "Erika Jayne",
+      "image": "./images/erika.jpg",
+      "clicked": false
+    }
+
+]
