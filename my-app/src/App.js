@@ -10,8 +10,11 @@ state={
   friends: friends,
   score: 0,
   highscore: 0,
-  message: "Click any image and don't match the same image unless you lose!",
 };
+// // constructor(props) {
+// //   super(props);
+//   this.onClick = this.onClick.bind(this);
+// }
 
   render(){
     return (
