@@ -11,10 +11,29 @@ state={
   score: 0,
   highscore: 0,
 };
+
+// adding on click function
 // // constructor(props) {
 // //   super(props);
 //   this.onClick = this.onClick.bind(this);
 // }
+
+// friendClicked = id => {
+
+// filtering this.state.friends for friends with an id not equal to the id being removed
+// const friends = this.state.friends.filter(friends => friends.id !==id);
+
+// set this.state.friends equal to the new friends array
+// this.setState({ friends });
+// }
+
+
+
+// for loop to randomly match onclick function
+// for (let i = 0; i < array.length; i++) {
+//   const element = array[i];
+  
+
 
   render(){
     return (
