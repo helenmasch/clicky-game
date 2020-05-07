@@ -13,8 +13,7 @@ state={
 };
 
 // adding on click function
-// // constructor(props) {
-// //   super(props);
+
 //   this.onClick = this.onClick.bind(this);
 // }
 
@@ -27,13 +26,17 @@ state={
 // this.setState({ friends });
 // }
 
-
+// if (friendClicked) {
 
 // for loop to randomly match onclick function
-// for (let i = 0; i < array.length; i++) {
-//   const element = array[i];
-  
+  // for (let i = 0; i < array.length; i++) {
+  // const element = array[i];
+// }  
 
+// increment the score by 1
+// increaseScore = () => {
+  //this.setState({ count: this.state.count + 1 });
+}
 
   render(){
     return (
