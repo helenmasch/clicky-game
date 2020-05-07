@@ -36,7 +36,7 @@ state={
 // increment the score by 1
 // increaseScore = () => {
   //this.setState({ count: this.state.count + 1 });
-}
+
 
   render(){
     return (
