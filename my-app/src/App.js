@@ -9,19 +9,20 @@ class App extends Component {
 state={
   friends: friends,
   score: 0,
-  highscore: 0
-}
+  highscore: 0,
+  message: "Click any image and don't match the same image unless you lose!",
+};
 
   render(){
     return (
       <Wrapper>
-          <Header   score={this.state.score}  highscore={this.state.highscore}   />
+          <Header  score={this.state.score}  highscore={this.state.highscore} />
+          Click any image and don't match the same image unless you lose!
           <Card  friends={this.state.friends} />
       </Wrapper>
     );
   }
 
-  
 }
 
 export default App;
