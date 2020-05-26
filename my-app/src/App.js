@@ -16,8 +16,49 @@ state={
 
 //   this.onClick = this.onClick.bind(this);
 // }
+ 
 
-// friendClicked = id => {
+friendClicked = userClickId => {
+ const originalFriends = friends
+
+const newFriends = this.state.friends.map(friend=>{
+    if(userClickId===friend.id){
+            if(friend.clicked===false){
+              friend.clicked=true
+                 this.setState({
+                   score: this.state.score + 1
+                    
+                 })
+
+                 if(this.state.score>=this.state.highscore){
+                   this.setState({
+                     highscore: this.state.highscore + 1 
+                   })
+                 }
+            }
+            else{
+              this.setState({
+                score: 0
+              })
+            }
+    }
+
+  return friend
+})
+
+newFriends.sort(()=>Math.random() - 0.5)
+this.setState({
+  friends: newFriends
+})
+
+ if(this.state.score===0){
+ // originalFriends.sort(()=>Math.random() - 0.5)
+   this.setState({
+     friends: originalFriends
+   })
+ } 
+ 
+ 
 
 // filtering this.state.friends for friends with an id not equal to the id being removed
 // const friends = this.state.friends.filter(friends => friends.id !==id);
@@ -36,14 +77,14 @@ state={
 // increment the score by 1
 // increaseScore = () => {
   //this.setState({ count: this.state.count + 1 });
-
+}
 
   render(){
     return (
       <Wrapper>
           <Header  score={this.state.score}  highscore={this.state.highscore} />
           Click any image and don't match the same image unless you lose!
-          <Card  friends={this.state.friends} />
+          <Card  friends={this.state.friends} friendClicked={this.friendClicked} />
       </Wrapper>
     );
   }

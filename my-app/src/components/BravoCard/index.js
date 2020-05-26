@@ -9,7 +9,8 @@ export default function Card(props) {
                 return (
                        <div className="col-sm-3"> 
                     <div className="card mt-5">
-                        <img src={friend.image} className="card-img-top" alt="..." />
+                        <img src={friend.image} className="card-img-top" alt="..." onClick={()=>props.friendClicked
+                        (friend.id)} />
 
                     </div>
                     </div>

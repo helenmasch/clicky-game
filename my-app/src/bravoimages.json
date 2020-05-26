@@ -2,73 +2,73 @@
     {
       "id": 1,
       "name": "Erika",
-      "image": "/images/erika.jpg",
+      "image": "/clicky-game/images/erika.jpg",
       "clicked": false
     },
     {
         "id": 2,
         "name": "Kandi",
-        "image": "/images/kandi.jpg",
+        "image": "/clicky-game/images/kandi.jpg",
         "clicked": false
     },
     {
         "id": 3,
         "name": "Kelly",
-        "image": "/images/kelly.jpg",
+        "image": "/clicky-game/images/kelly.jpg",
         "clicked": false
     },
     {
         "id": 4,
         "name": "Kyle",
-        "image": "/images/kyle.jpg",
+        "image": "/clicky-game/images/kyle.jpg",
         "clicked": false
     },
     {
         "id": 5,
         "name": "Lisa",
-        "image": "/images/lisa.jpg",
+        "image": "/clicky-game/images/lisa.jpg",
         "clicked": false
     },
     {
         "id": 6,
         "name": "Melissa",
-        "image": "/images/melissa.jpg",
+        "image": "/clicky-game/images/melissa.jpg",
         "clicked": false
     },
     {
         "id": 7,
         "name": "Nene",
-        "image": "/images/nene.jpg",
+        "image": "/clicky-game/images/nene.jpg",
         "clicked": false
     },
     {
         "id": 8,
         "name": "Porscha",
-        "image": "/images/porscha.jpg",
+        "image": "/clicky-game/images/porscha.jpg",
         "clicked": false
     },
     {
         "id": 9,
         "name": "Ramona",
-        "image": "/images/ramona.jpg",
+        "image": "/clicky-game/images/ramona.jpg",
         "clicked": false
     },
     {
         "id": 10,
         "name": "Shannon",
-        "image": "/images/shannon.jpg",
+        "image": "/clicky-game/images/shannon.jpg",
         "clicked": false
     },
     {
         "id": 11,
         "name": "Sonja",
-        "image": "/images/sonja.jpg",
+        "image": "/clicky-game/images/sonja.jpg",
         "clicked": false
     },
     {
         "id": 12,
         "name": "Theresa",
-        "image": "/images/theresa.jpg",
+        "image": "/clicky-game/images/theresa.jpg",
         "clicked": false
     }
 
