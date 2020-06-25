@@ -1,4 +1,7 @@
 # Bravo Clicky Game
 
-## Link
+## Overview
+A React memory game!
+
+## Play the Game
 * https://helenmasch.github.io/clicky-game/
