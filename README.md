@@ -5,3 +5,7 @@ A **React** memory game with your favorite Bravo TV housewives! The object of th
 
 ## Play the Game
 * https://helenmasch.github.io/clicky-game/
+
+## Git Repository
+
+* https://github.com/helenmasch/clicky-game
