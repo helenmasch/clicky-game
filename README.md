@@ -15,10 +15,10 @@ GAME OVER.
 * https://github.com/helenmasch/clicky-game
 
 ## Tech
-
 * React.js
 * HTML
 * CSS
 * JavaScript
-* Github
+* Node.js
+* GH Pages
  
