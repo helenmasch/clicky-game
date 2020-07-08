@@ -22,3 +22,5 @@ GAME OVER.
 * Node.js
 * GH Pages
  
+## Instructions
+![Bravo Memory Game](/images/clicky-game.png)
