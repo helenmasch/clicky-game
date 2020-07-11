@@ -23,4 +23,4 @@ GAME OVER.
 * GH Pages
  
 ## Instructions
-![Bravo Memory Game](/images/clicky-game.jpg)
+![Bravo Memory Game](/images/clicky-game.xcf)
